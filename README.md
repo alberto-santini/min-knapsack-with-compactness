@@ -25,7 +25,7 @@ You can cite this repository itself as follows:
 @misc{Santini_2023,
     title={Algorithms for the min-Knapsack problem with compactness constraints},
     author={Santini, Alberto},
-    date=2022-12-29,
+    date={2022-12-29},
     year=2022,
     doi={10.5281/zenodo.7492799},
     url={https://github.com/alberto-santini/min-knapsack-with-compactness},
