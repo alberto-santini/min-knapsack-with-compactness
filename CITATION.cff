@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Santini"
+  given-names: "Alberto"
+  orcid: "https://orcid.org/0000-0002-0440-0357"
+title: "Algorithms for the min-Knapsack problem with compactness constraints"
+version: 0.1
+doi: 10.5281/zenodo.7492799
+date-released: 2020-12-29
+url: "https://github.com/alberto-santini/min-knapsack-with-compactness"
+preferred-citation:
+  type: report
+  authors:
+  - family-names: "Santini"
+    given-names: "Alberto"
+    orcid: "https://orcid.org/0000-0002-0440-0357"
+  - family-names: "Malaguti
+    given-names: "Enrico
+  institution: "Universitat Pompeu Fabra"
+  title: "The min-Knapsack Problem with Compactness Constraints and Applications to Statistics"
+  year: 2023
+  url: "https://santini.in/files/papers/santini-malaguti-2023.pdf"
