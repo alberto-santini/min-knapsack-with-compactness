@@ -1,5 +1,7 @@
 # Min-Knapsack Problem with Compactness Constraints
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7492799.svg)](https://doi.org/10.5281/zenodo.7492799)
+
 This is a collection of algorithms to solve:
 
 * The min-Knapsack Problem with Compactness Constraints (mKPC), a generalisation of the classical min-Knapsack problem. The mKPC arises as a sub-problem in some algorithms for change-point detection in time series analysis (such as the [PRISCA](https://github.com/lorenzocapp/prisca) algorithm) and for variable selection in genetic fine-mapping (such as the [SuSiE](https://stephenslab.github.io/susieR/) algorithm).
@@ -7,7 +9,29 @@ This is a collection of algorithms to solve:
 
 This software was developped as part of the following manuscript:
 
-> TODO: add a reference to the pre-print, once it is on-line.
+```bib
+@techreport{Santini_Malaguti_2023
+  title={The min-Knapsack Problem with Compactness Constraints and Applications to Statistics},
+  author={Santini, Alberto and Malaguti, Enrico},
+  institution={Universitat Pompeu Fabra},
+  url={https://santini.in/files/papers/santini-malaguti-2023.pdf},
+  year=2023
+}
+```
+
+You can cite this repository itself as follows:
+
+```bib
+@misc{Santini_2023,
+    title={Algorithms for the min-Knapsack problem with compactness constraints},
+    author={Santini, Alberto},
+    date=2022-12-29,
+    year=2022,
+    doi={10.5281/zenodo.7492799},
+    url={https://github.com/alberto-santini/min-knapsack-with-compactness},
+    howpublished={Github repository}
+}
+```
 
 ## Data
 
