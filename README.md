@@ -49,3 +49,4 @@ Included software:
 * Licence for [cxxopts](https://raw.githubusercontent.com/jarro2783/cxxopts/master/LICENSE)
 * Licence for [date](https://raw.githubusercontent.com/HowardHinnant/date/master/LICENSE.txt)
 * Licence for [nlohmann/json](https://raw.githubusercontent.com/nlohmann/json/develop/LICENSE.MIT)
+* Licence for [rapidcsv](https://raw.githubusercontent.com/d99kris/rapidcsv/master/LICENSE)
