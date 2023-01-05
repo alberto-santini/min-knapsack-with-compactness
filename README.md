@@ -11,7 +11,7 @@ This software was developped as part of the following manuscript:
 
 ```bib
 @techreport{Santini_Malaguti_2023
-  title={The min-Knapsack Problem with Compactness Constraints and Applications to Statistics},
+  title={The min-Knapsack Problem with Compactness Constraints and Applications in Statistics},
   author={Santini, Alberto and Malaguti, Enrico},
   institution={Universitat Pompeu Fabra},
   url={https://santini.in/files/papers/santini-malaguti-2023.pdf},
