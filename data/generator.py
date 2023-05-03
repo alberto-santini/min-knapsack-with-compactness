@@ -155,7 +155,7 @@ class Generator:
             weights = np.append(weights, 0.0)
 
         if len(weights) != self.n_items:
-            raise ValueError(f"Wrong provits length {len(weights)} vs. expected {self.n_items}")
+            raise ValueError(f"Wrong weights length {len(weights)} vs. expected {self.n_items}")
     
         return weights
 
