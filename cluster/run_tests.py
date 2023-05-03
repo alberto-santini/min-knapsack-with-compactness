@@ -79,7 +79,7 @@ def build_project(base_path: str) -> None:
     else:
         chmod(exe, os.stat(exe).st_mode | stat.S_IXUSR)
 
-def get_instances(base_path: str, use_unit_profit: bool) -> List[str]:
+def get_instances(base_path: str, use_unit_profit: bool, new_only: bool) -> List[str]:
     all_instances = list()
     
     folders = ['synthetic-instances']
@@ -95,6 +95,11 @@ def get_instances(base_path: str, use_unit_profit: bool) -> List[str]:
         else:
             all_instances += list(instances)
     
+    if new_only:
+        with open(path.join(base_path), 'data', 'new_synthetic_instances.txt') as f:
+            new_instances = [line.rstrip() for line in f]
+        all_instances = [inst for inst in all_instances if inst in new_instances]
+
     return all_instances
 
 def initialise_dirs(base_path: str) -> Dict[str, str]:
@@ -196,6 +201,11 @@ if __name__ == '__main__':
         help='Also run tests on Unit Profit instances. Otherwise only run on generated instances.',
         action='store_true'
     )
+    parser.add_argument(
+        '--new-only',
+        help='Only run tests on instances listed in data/new_synthetic_instances.txt',
+        action='store_true'
+    )
 
     args = parser.parse_args()
 
@@ -207,7 +217,7 @@ if __name__ == '__main__':
     build_project(base_path=base_path)
     dirs = initialise_dirs(base_path=base_path)
 
-    for instance in get_instances(base_path=base_path, use_unit_profit=args.unit_profit_instances):
+    for instance in get_instances(base_path=base_path, use_unit_profit=args.unit_profit_instances, new_only=args.new_only):
         if args.params == 'all':
             params = all_params.values()
 
