@@ -96,7 +96,7 @@ def get_instances(base_path: str, use_unit_profit: bool, new_only: bool) -> List
             all_instances += list(instances)
     
     if new_only:
-        with open(path.join(base_path), 'data', 'new_synthetic_instances.txt') as f:
+        with open(path.join(base_path, 'data', 'new_synthetic_instances.txt')) as f:
             new_instances = [line.rstrip() for line in f]
         all_instances = [inst for inst in all_instances if inst in new_instances]
 
