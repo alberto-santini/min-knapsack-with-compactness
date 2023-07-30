@@ -10,11 +10,12 @@ This is a collection of algorithms to solve:
 This software was developped as part of the following manuscript:
 
 ```bib
-@techreport{Santini_Malaguti_2023
+@article{Santini_Malaguti_2023
   title={The min-Knapsack Problem with Compactness Constraints and Applications in Statistics},
   author={Santini, Alberto and Malaguti, Enrico},
-  institution={Universitat Pompeu Fabra},
-  url={https://santini.in/files/papers/santini-malaguti-2023.pdf},
+  journal={European Journal of Operational Research},
+  doi={10.1016/j.ejor.2023.07.020},
+  pubstatus={inpress},
   year=2023
 }
 ```
