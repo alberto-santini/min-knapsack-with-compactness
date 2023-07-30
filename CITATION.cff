@@ -10,14 +10,14 @@ doi: 10.5281/zenodo.7492799
 date-released: 2020-12-29
 url: "https://github.com/alberto-santini/min-knapsack-with-compactness"
 preferred-citation:
-  type: report
+  type: article
   authors:
   - family-names: "Santini"
     given-names: "Alberto"
     orcid: "https://orcid.org/0000-0002-0440-0357"
   - family-names: "Malaguti"
     given-names: "Enrico"
-  institution: "Universitat Pompeu Fabra"
+  journal: "European Journal of Operational Research"
   title: "The min-Knapsack Problem with Compactness Constraints and Applications to Statistics"
   year: 2023
-  url: "https://santini.in/files/papers/santini-malaguti-2023.pdf"
+  doi: "10.1016/j.ejor.2023.07.020"
