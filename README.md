@@ -1,3 +1,5 @@
+![Sample solution](sol_mkpc.png)
+
 # Min-Knapsack Problem with Compactness Constraints
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7492799.svg)](https://doi.org/10.5281/zenodo.7492799)
